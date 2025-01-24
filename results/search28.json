@@ -1,0 +1,5537 @@
+[
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32912227511405945,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.49987366795539856,
+      "feature_selection_ratio": 0.4987500011920929,
+      "gini_coefficient": 0.049644723534584045
+    },
+    "timestamp": "2025-01-23 13:21:57"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3046680986881256,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5001478791236877,
+      "feature_selection_ratio": 0.5074999928474426,
+      "gini_coefficient": 0.04796813428401947
+    },
+    "timestamp": "2025-01-23 13:24:47"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32956066727638245,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5002297759056091,
+      "feature_selection_ratio": 0.4970833361148834,
+      "gini_coefficient": 0.050001081079244614
+    },
+    "timestamp": "2025-01-23 13:27:20"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.340461403131485,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5019621253013611,
+      "feature_selection_ratio": 0.5216666460037231,
+      "gini_coefficient": 0.04889277368783951
+    },
+    "timestamp": "2025-01-23 13:29:27"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.38218599557876587,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5006375908851624,
+      "feature_selection_ratio": 0.49916666746139526,
+      "gini_coefficient": 0.05008223280310631
+    },
+    "timestamp": "2025-01-23 13:31:53"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33977824449539185,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5009264945983887,
+      "feature_selection_ratio": 0.5091666579246521,
+      "gini_coefficient": 0.04927552118897438
+    },
+    "timestamp": "2025-01-23 13:34:42"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32479751110076904,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5003250241279602,
+      "feature_selection_ratio": 0.5079166889190674,
+      "gini_coefficient": 0.05029942840337753
+    },
+    "timestamp": "2025-01-23 13:37:08"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3559950888156891,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.4988757371902466,
+      "feature_selection_ratio": 0.49166667461395264,
+      "gini_coefficient": 0.05006541684269905
+    },
+    "timestamp": "2025-01-23 13:39:12"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33852970600128174,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5016016960144043,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.04767311364412308
+    },
+    "timestamp": "2025-01-23 13:41:42"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.38964810967445374,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.4996216297149658,
+      "feature_selection_ratio": 0.49791666865348816,
+      "gini_coefficient": 0.0493583157658577
+    },
+    "timestamp": "2025-01-23 13:44:42"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.4239080548286438,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.49950388073921204,
+      "feature_selection_ratio": 0.4958333373069763,
+      "gini_coefficient": 0.04905964061617851
+    },
+    "timestamp": "2025-01-23 13:46:27"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2995706796646118,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5002578496932983,
+      "feature_selection_ratio": 0.4937500059604645,
+      "gini_coefficient": 0.050585005432367325
+    },
+    "timestamp": "2025-01-23 13:49:26"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3269583284854889,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.4997536242008209,
+      "feature_selection_ratio": 0.49541667103767395,
+      "gini_coefficient": 0.05005738139152527
+    },
+    "timestamp": "2025-01-23 13:53:18"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3032369017601013,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.49940016865730286,
+      "feature_selection_ratio": 0.49041667580604553,
+      "gini_coefficient": 0.04919343441724777
+    },
+    "timestamp": "2025-01-23 13:57:32"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33555835485458374,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5021582245826721,
+      "feature_selection_ratio": 0.5199999809265137,
+      "gini_coefficient": 0.04782749339938164
+    },
+    "timestamp": "2025-01-23 14:00:16"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33337026834487915,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.5001287460327148,
+      "feature_selection_ratio": 0.5016666650772095,
+      "gini_coefficient": 0.05078023672103882
+    },
+    "timestamp": "2025-01-23 14:03:30"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.20271703600883484,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5000565648078918,
+      "feature_selection_ratio": 0.5016666650772095,
+      "gini_coefficient": 0.05343412607908249
+    },
+    "timestamp": "2025-01-23 14:07:22"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.19384977221488953,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5005499124526978,
+      "feature_selection_ratio": 0.49166667461395264,
+      "gini_coefficient": 0.048552025109529495
+    },
+    "timestamp": "2025-01-23 14:11:52"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.23304180800914764,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.49988770484924316,
+      "feature_selection_ratio": 0.4933333396911621,
+      "gini_coefficient": 0.05182807147502899
+    },
+    "timestamp": "2025-01-23 14:15:21"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.17135314643383026,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4993990659713745,
+      "feature_selection_ratio": 0.48750001192092896,
+      "gini_coefficient": 0.05273717641830444
+    },
+    "timestamp": "2025-01-23 14:19:51"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.19937480986118317,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4999515414237976,
+      "feature_selection_ratio": 0.502916693687439,
+      "gini_coefficient": 0.050031788647174835
+    },
+    "timestamp": "2025-01-23 14:23:22"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.19119536876678467,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5002524852752686,
+      "feature_selection_ratio": 0.4950000047683716,
+      "gini_coefficient": 0.052365224808454514
+    },
+    "timestamp": "2025-01-23 14:27:27"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.15741324424743652,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4990946352481842,
+      "feature_selection_ratio": 0.5020833611488342,
+      "gini_coefficient": 0.051878511905670166
+    },
+    "timestamp": "2025-01-23 14:31:28"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1644856482744217,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5012800097465515,
+      "feature_selection_ratio": 0.5174999833106995,
+      "gini_coefficient": 0.04892563074827194
+    },
+    "timestamp": "2025-01-23 14:36:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32056447863578796,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5000805258750916,
+      "feature_selection_ratio": 0.5024999976158142,
+      "gini_coefficient": 0.01424205768853426
+    },
+    "timestamp": "2025-01-23 14:40:45"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31680041551589966,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.49974796175956726,
+      "feature_selection_ratio": 0.4816666543483734,
+      "gini_coefficient": 0.014446274377405643
+    },
+    "timestamp": "2025-01-23 14:44:14"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31042253971099854,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5003101229667664,
+      "feature_selection_ratio": 0.5016666650772095,
+      "gini_coefficient": 0.014297673478722572
+    },
+    "timestamp": "2025-01-23 14:46:31"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.3583984971046448,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5000972747802734,
+      "feature_selection_ratio": 0.5024999976158142,
+      "gini_coefficient": 0.014469537883996964
+    },
+    "timestamp": "2025-01-23 14:48:41"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31592974066734314,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.49990785121917725,
+      "feature_selection_ratio": 0.4937500059604645,
+      "gini_coefficient": 0.014897101558744907
+    },
+    "timestamp": "2025-01-23 14:51:11"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3782007098197937,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.4995969533920288,
+      "feature_selection_ratio": 0.4908333420753479,
+      "gini_coefficient": 0.014500872232019901
+    },
+    "timestamp": "2025-01-23 14:54:05"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32246100902557373,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.499848335981369,
+      "feature_selection_ratio": 0.4858333468437195,
+      "gini_coefficient": 0.014463664963841438
+    },
+    "timestamp": "2025-01-23 14:56:33"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3542709946632385,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9666666984558105,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9600000381469727,
+      "sparsity_l1": 0.49981689453125,
+      "feature_selection_ratio": 0.5012500286102295,
+      "gini_coefficient": 0.01449440885335207
+    },
+    "timestamp": "2025-01-23 14:58:13"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32234203815460205,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.4998599886894226,
+      "feature_selection_ratio": 0.4933333396911621,
+      "gini_coefficient": 0.014503260143101215
+    },
+    "timestamp": "2025-01-23 15:00:54"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31413084268569946,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.5001478791236877,
+      "feature_selection_ratio": 0.5004166960716248,
+      "gini_coefficient": 0.014608529396355152
+    },
+    "timestamp": "2025-01-23 15:04:02"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.28944000601768494,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.49967849254608154,
+      "feature_selection_ratio": 0.4833333194255829,
+      "gini_coefficient": 0.014616375789046288
+    },
+    "timestamp": "2025-01-23 15:05:56"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33879274129867554,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5000075697898865,
+      "feature_selection_ratio": 0.5020833611488342,
+      "gini_coefficient": 0.01459500938653946
+    },
+    "timestamp": "2025-01-23 15:07:45"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.36420053243637085,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5002854466438293,
+      "feature_selection_ratio": 0.5112500190734863,
+      "gini_coefficient": 0.014671513810753822
+    },
+    "timestamp": "2025-01-23 15:10:28"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33479467034339905,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.4999825656414032,
+      "feature_selection_ratio": 0.502916693687439,
+      "gini_coefficient": 0.014922073110938072
+    },
+    "timestamp": "2025-01-23 15:13:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.27672430872917175,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5000476241111755,
+      "feature_selection_ratio": 0.5,
+      "gini_coefficient": 0.014752449467778206
+    },
+    "timestamp": "2025-01-23 15:16:00"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31375664472579956,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.4995998740196228,
+      "feature_selection_ratio": 0.49541667103767395,
+      "gini_coefficient": 0.01462050061672926
+    },
+    "timestamp": "2025-01-23 15:18:54"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.18846948444843292,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.49991321563720703,
+      "feature_selection_ratio": 0.49041667580604553,
+      "gini_coefficient": 0.014429963193833828
+    },
+    "timestamp": "2025-01-23 15:21:22"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1643107682466507,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4999459981918335,
+      "feature_selection_ratio": 0.4870833456516266,
+      "gini_coefficient": 0.014479654841125011
+    },
+    "timestamp": "2025-01-23 15:24:14"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.20163176953792572,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4999881088733673,
+      "feature_selection_ratio": 0.4958333373069763,
+      "gini_coefficient": 0.014410937204957008
+    },
+    "timestamp": "2025-01-23 15:25:53"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1561603546142578,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4997274875640869,
+      "feature_selection_ratio": 0.4950000047683716,
+      "gini_coefficient": 0.014943750575184822
+    },
+    "timestamp": "2025-01-23 15:28:44"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.17937591671943665,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.49971282482147217,
+      "feature_selection_ratio": 0.4883333444595337,
+      "gini_coefficient": 0.014355998486280441
+    },
+    "timestamp": "2025-01-23 15:31:14"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.14956343173980713,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.49964019656181335,
+      "feature_selection_ratio": 0.49166667461395264,
+      "gini_coefficient": 0.01492476835846901
+    },
+    "timestamp": "2025-01-23 15:34:08"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1721493899822235,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5004057884216309,
+      "feature_selection_ratio": 0.5108333230018616,
+      "gini_coefficient": 0.014480327256023884
+    },
+    "timestamp": "2025-01-23 15:36:38"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.15124616026878357,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5002232193946838,
+      "feature_selection_ratio": 0.5,
+      "gini_coefficient": 0.014727414585649967
+    },
+    "timestamp": "2025-01-23 15:39:30"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.34731364250183105,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416666030883789,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9323809742927551,
+      "sparsity_l1": 0.5022392868995667,
+      "feature_selection_ratio": 0.5266666412353516,
+      "gini_coefficient": 0.035868819802999496
+    },
+    "timestamp": "2025-01-23 15:41:59"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3243207335472107,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5007480978965759,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.0357947051525116
+    },
+    "timestamp": "2025-01-23 15:44:53"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32522210478782654,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5012784004211426,
+      "feature_selection_ratio": 0.5237500071525574,
+      "gini_coefficient": 0.03543296456336975
+    },
+    "timestamp": "2025-01-23 15:47:22"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3422982394695282,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5010256767272949,
+      "feature_selection_ratio": 0.5045833587646484,
+      "gini_coefficient": 0.0361962728202343
+    },
+    "timestamp": "2025-01-23 15:49:00"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.40244847536087036,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.5024904608726501,
+      "feature_selection_ratio": 0.534583330154419,
+      "gini_coefficient": 0.03587022051215172
+    },
+    "timestamp": "2025-01-23 15:51:29"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.339756041765213,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5003185272216797,
+      "feature_selection_ratio": 0.5162500143051147,
+      "gini_coefficient": 0.03450851887464523
+    },
+    "timestamp": "2025-01-23 15:54:21"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32947850227355957,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5004823207855225,
+      "feature_selection_ratio": 0.5108333230018616,
+      "gini_coefficient": 0.03585721552371979
+    },
+    "timestamp": "2025-01-23 15:56:41"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3514321744441986,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5017383694648743,
+      "feature_selection_ratio": 0.5170833468437195,
+      "gini_coefficient": 0.038356296718120575
+    },
+    "timestamp": "2025-01-23 15:58:44"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3745642304420471,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5010111927986145,
+      "feature_selection_ratio": 0.5108333230018616,
+      "gini_coefficient": 0.036905087530612946
+    },
+    "timestamp": "2025-01-23 16:01:14"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.322509229183197,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5011265277862549,
+      "feature_selection_ratio": 0.5099999904632568,
+      "gini_coefficient": 0.038059864193201065
+    },
+    "timestamp": "2025-01-23 16:04:18"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.3938439190387726,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.501859188079834,
+      "feature_selection_ratio": 0.5262500047683716,
+      "gini_coefficient": 0.037087954580783844
+    },
+    "timestamp": "2025-01-23 16:06:33"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.3867206573486328,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5015085935592651,
+      "feature_selection_ratio": 0.5316666960716248,
+      "gini_coefficient": 0.03763093054294586
+    },
+    "timestamp": "2025-01-23 16:07:57"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3174630403518677,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.4999455213546753,
+      "feature_selection_ratio": 0.4958333373069763,
+      "gini_coefficient": 0.03582222759723663
+    },
+    "timestamp": "2025-01-23 16:10:31"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.29041963815689087,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9666666984558105,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9600000381469727,
+      "sparsity_l1": 0.5007593631744385,
+      "feature_selection_ratio": 0.5137500166893005,
+      "gini_coefficient": 0.03643151372671127
+    },
+    "timestamp": "2025-01-23 16:13:26"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.29617610573768616,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5008995532989502,
+      "feature_selection_ratio": 0.5104166865348816,
+      "gini_coefficient": 0.036714158952236176
+    },
+    "timestamp": "2025-01-23 16:15:27"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33678925037384033,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5001707673072815,
+      "feature_selection_ratio": 0.4925000071525574,
+      "gini_coefficient": 0.034280844032764435
+    },
+    "timestamp": "2025-01-23 16:18:08"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.20582889020442963,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.500932514667511,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.03282523155212402
+    },
+    "timestamp": "2025-01-23 16:20:38"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.1756097972393036,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4990500807762146,
+      "feature_selection_ratio": 0.48750001192092896,
+      "gini_coefficient": 0.035576559603214264
+    },
+    "timestamp": "2025-01-23 16:23:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.18410031497478485,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5008716583251953,
+      "feature_selection_ratio": 0.5162500143051147,
+      "gini_coefficient": 0.03456837683916092
+    },
+    "timestamp": "2025-01-23 16:26:04"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.16946136951446533,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4992449879646301,
+      "feature_selection_ratio": 0.4962500035762787,
+      "gini_coefficient": 0.033253688365221024
+    },
+    "timestamp": "2025-01-23 16:28:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.19043183326721191,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4998377859592438,
+      "feature_selection_ratio": 0.4866666793823242,
+      "gini_coefficient": 0.03569773584604263
+    },
+    "timestamp": "2025-01-23 16:31:05"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.15925566852092743,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5006082653999329,
+      "feature_selection_ratio": 0.5062500238418579,
+      "gini_coefficient": 0.032784465700387955
+    },
+    "timestamp": "2025-01-23 16:33:59"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.14669926464557648,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.499442994594574,
+      "feature_selection_ratio": 0.48625001311302185,
+      "gini_coefficient": 0.03384116291999817
+    },
+    "timestamp": "2025-01-23 16:36:27"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1732117384672165,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5010374784469604,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.03416343405842781
+    },
+    "timestamp": "2025-01-23 16:39:18"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3831506073474884,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5044692158699036,
+      "feature_selection_ratio": 0.5245833396911621,
+      "gini_coefficient": 0.12000550329685211
+    },
+    "timestamp": "2025-01-23 16:41:45"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2708440124988556,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5057225227355957,
+      "feature_selection_ratio": 0.5099999904632568,
+      "gini_coefficient": 0.13448800146579742
+    },
+    "timestamp": "2025-01-23 16:44:35"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.4144868850708008,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5018661022186279,
+      "feature_selection_ratio": 0.5012500286102295,
+      "gini_coefficient": 0.1235983744263649
+    },
+    "timestamp": "2025-01-23 16:46:08"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3868257999420166,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5018133521080017,
+      "feature_selection_ratio": 0.5062500238418579,
+      "gini_coefficient": 0.12920792400836945
+    },
+    "timestamp": "2025-01-23 16:48:10"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3677387535572052,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5038520097732544,
+      "feature_selection_ratio": 0.5141666531562805,
+      "gini_coefficient": 0.12892146408557892
+    },
+    "timestamp": "2025-01-23 16:50:39"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.379252165555954,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5029465556144714,
+      "feature_selection_ratio": 0.4983333349227905,
+      "gini_coefficient": 0.12423993647098541
+    },
+    "timestamp": "2025-01-23 16:53:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3779386878013611,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5043554902076721,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.1268620640039444
+    },
+    "timestamp": "2025-01-23 16:56:14"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.38328662514686584,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5037490129470825,
+      "feature_selection_ratio": 0.5141666531562805,
+      "gini_coefficient": 0.12700311839580536
+    },
+    "timestamp": "2025-01-23 16:58:59"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.37734314799308777,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5054261088371277,
+      "feature_selection_ratio": 0.5179166793823242,
+      "gini_coefficient": 0.13032467663288116
+    },
+    "timestamp": "2025-01-23 17:01:23"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.3888700008392334,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.49910953640937805,
+      "feature_selection_ratio": 0.49666666984558105,
+      "gini_coefficient": 0.1270814687013626
+    },
+    "timestamp": "2025-01-23 17:04:16"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.40671753883361816,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333333969116211,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.5025981068611145,
+      "feature_selection_ratio": 0.512499988079071,
+      "gini_coefficient": 0.11928358674049377
+    },
+    "timestamp": "2025-01-23 17:05:53"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33994707465171814,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.502975344657898,
+      "feature_selection_ratio": 0.5083333253860474,
+      "gini_coefficient": 0.13062997162342072
+    },
+    "timestamp": "2025-01-23 17:08:45"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.40707969665527344,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5051482915878296,
+      "feature_selection_ratio": 0.5237500071525574,
+      "gini_coefficient": 0.1216103583574295
+    },
+    "timestamp": "2025-01-23 17:11:12"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2951786518096924,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5017799735069275,
+      "feature_selection_ratio": 0.5037500262260437,
+      "gini_coefficient": 0.1311950832605362
+    },
+    "timestamp": "2025-01-23 17:14:05"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.35978639125823975,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5007559657096863,
+      "feature_selection_ratio": 0.5049999952316284,
+      "gini_coefficient": 0.11471883952617645
+    },
+    "timestamp": "2025-01-23 17:16:18"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.382822722196579,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5002647042274475,
+      "feature_selection_ratio": 0.4945833384990692,
+      "gini_coefficient": 0.12589921057224274
+    },
+    "timestamp": "2025-01-23 17:18:41"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.16331766545772552,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5031816363334656,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.11223939061164856
+    },
+    "timestamp": "2025-01-23 17:21:10"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.21307586133480072,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5037274956703186,
+      "feature_selection_ratio": 0.5133333206176758,
+      "gini_coefficient": 0.11412104219198227
+    },
+    "timestamp": "2025-01-23 17:24:04"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.2439882606267929,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5006590485572815,
+      "feature_selection_ratio": 0.5041666626930237,
+      "gini_coefficient": 0.11393849551677704
+    },
+    "timestamp": "2025-01-23 17:25:31"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.17202995717525482,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5009674429893494,
+      "feature_selection_ratio": 0.5133333206176758,
+      "gini_coefficient": 0.1188572496175766
+    },
+    "timestamp": "2025-01-23 17:28:04"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2115272730588913,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.502288281917572,
+      "feature_selection_ratio": 0.5099999904632568,
+      "gini_coefficient": 0.11611735820770264
+    },
+    "timestamp": "2025-01-23 17:30:43"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.16915543377399445,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.9666666984558105,
+      "test_f1": 0.9657143354415894,
+      "sparsity_l1": 0.49984073638916016,
+      "feature_selection_ratio": 0.5012500286102295,
+      "gini_coefficient": 0.11873071640729904
+    },
+    "timestamp": "2025-01-23 17:33:49"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1981167495250702,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5024020075798035,
+      "feature_selection_ratio": 0.5166666507720947,
+      "gini_coefficient": 0.10787081718444824
+    },
+    "timestamp": "2025-01-23 17:36:27"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.17871564626693726,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5034264922142029,
+      "feature_selection_ratio": 0.5108333230018616,
+      "gini_coefficient": 0.10962889343500137
+    },
+    "timestamp": "2025-01-23 17:39:20"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3169904351234436,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.4997241795063019,
+      "feature_selection_ratio": 0.4987500011920929,
+      "gini_coefficient": 0.03243638202548027
+    },
+    "timestamp": "2025-01-23 17:41:45"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31073829531669617,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.4998868703842163,
+      "feature_selection_ratio": 0.4983333349227905,
+      "gini_coefficient": 0.02861408144235611
+    },
+    "timestamp": "2025-01-23 17:44:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.43421560525894165,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.9666666984558105,
+      "test_f1": 0.9657143354415894,
+      "sparsity_l1": 0.5002325177192688,
+      "feature_selection_ratio": 0.5129166841506958,
+      "gini_coefficient": 0.025867624208331108
+    },
+    "timestamp": "2025-01-23 17:45:47"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33787399530410767,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.9666666984558105,
+      "test_f1": 0.9657143354415894,
+      "sparsity_l1": 0.5004339218139648,
+      "feature_selection_ratio": 0.5045833587646484,
+      "gini_coefficient": 0.026617636904120445
+    },
+    "timestamp": "2025-01-23 17:47:07"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3585398495197296,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9666666984558105,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9600000381469727,
+      "sparsity_l1": 0.5007585287094116,
+      "feature_selection_ratio": 0.5195833444595337,
+      "gini_coefficient": 0.026438821107149124
+    },
+    "timestamp": "2025-01-23 17:49:33"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3222878873348236,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5016016364097595,
+      "feature_selection_ratio": 0.5208333134651184,
+      "gini_coefficient": 0.03657909855246544
+    },
+    "timestamp": "2025-01-23 17:52:22"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.3063213527202606,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9666666984558105,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9600000381469727,
+      "sparsity_l1": 0.4992958605289459,
+      "feature_selection_ratio": 0.5012500286102295,
+      "gini_coefficient": 0.030397361144423485
+    },
+    "timestamp": "2025-01-23 17:54:46"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3146973252296448,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.4993496835231781,
+      "feature_selection_ratio": 0.4925000071525574,
+      "gini_coefficient": 0.03266872838139534
+    },
+    "timestamp": "2025-01-23 17:57:25"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.2719206213951111,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5010256171226501,
+      "feature_selection_ratio": 0.5179166793823242,
+      "gini_coefficient": 0.02854524739086628
+    },
+    "timestamp": "2025-01-23 17:59:49"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2904924750328064,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333333969116211,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.4999940097332001,
+      "feature_selection_ratio": 0.49791666865348816,
+      "gini_coefficient": 0.02773541584610939
+    },
+    "timestamp": "2025-01-23 18:02:36"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2734505534172058,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9666666984558105,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9600000381469727,
+      "sparsity_l1": 0.5004991888999939,
+      "feature_selection_ratio": 0.5083333253860474,
+      "gini_coefficient": 0.029909124597907066
+    },
+    "timestamp": "2025-01-23 18:04:51"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3761867880821228,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.5005854368209839,
+      "feature_selection_ratio": 0.4983333349227905,
+      "gini_coefficient": 0.028819995000958443
+    },
+    "timestamp": "2025-01-23 18:06:13"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.34351736307144165,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.5014939904212952,
+      "feature_selection_ratio": 0.5220833420753479,
+      "gini_coefficient": 0.033734794706106186
+    },
+    "timestamp": "2025-01-23 18:08:36"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.35190272331237793,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5003085136413574,
+      "feature_selection_ratio": 0.5062500238418579,
+      "gini_coefficient": 0.030541228130459785
+    },
+    "timestamp": "2025-01-23 18:11:23"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.36210665106773376,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5010363459587097,
+      "feature_selection_ratio": 0.5141666531562805,
+      "gini_coefficient": 0.028516989201307297
+    },
+    "timestamp": "2025-01-23 18:13:45"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3430655598640442,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.500335156917572,
+      "feature_selection_ratio": 0.5079166889190674,
+      "gini_coefficient": 0.030608687549829483
+    },
+    "timestamp": "2025-01-23 18:15:35"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.15716393291950226,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.500470757484436,
+      "feature_selection_ratio": 0.5204166769981384,
+      "gini_coefficient": 0.028821760788559914
+    },
+    "timestamp": "2025-01-23 18:17:59"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.15812844038009644,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5013259053230286,
+      "feature_selection_ratio": 0.5291666388511658,
+      "gini_coefficient": 0.029141660779714584
+    },
+    "timestamp": "2025-01-23 18:20:49"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.14812937378883362,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5000413656234741,
+      "feature_selection_ratio": 0.5024999976158142,
+      "gini_coefficient": 0.029236240312457085
+    },
+    "timestamp": "2025-01-23 18:23:15"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.16769258677959442,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5002297759056091,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.02653098851442337
+    },
+    "timestamp": "2025-01-23 18:26:04"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1759922355413437,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5007970333099365,
+      "feature_selection_ratio": 0.502916693687439,
+      "gini_coefficient": 0.03108477219939232
+    },
+    "timestamp": "2025-01-23 18:28:30"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.15972410142421722,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.501466691493988,
+      "feature_selection_ratio": 0.5220833420753479,
+      "gini_coefficient": 0.031284332275390625
+    },
+    "timestamp": "2025-01-23 18:31:19"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.2161325067281723,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.49954742193222046,
+      "feature_selection_ratio": 0.49291667342185974,
+      "gini_coefficient": 0.027667460963129997
+    },
+    "timestamp": "2025-01-23 18:33:01"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.15181979537010193,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4999997019767761,
+      "feature_selection_ratio": 0.4933333396911621,
+      "gini_coefficient": 0.02958344854414463
+    },
+    "timestamp": "2025-01-23 18:35:49"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.4207315444946289,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5045344829559326,
+      "feature_selection_ratio": 0.5237500071525574,
+      "gini_coefficient": 0.10423211753368378
+    },
+    "timestamp": "2025-01-23 18:38:14"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2923890948295593,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.504265308380127,
+      "feature_selection_ratio": 0.5166666507720947,
+      "gini_coefficient": 0.11702921241521835
+    },
+    "timestamp": "2025-01-23 18:41:04"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3627623915672302,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5026854276657104,
+      "feature_selection_ratio": 0.5062500238418579,
+      "gini_coefficient": 0.09997953474521637
+    },
+    "timestamp": "2025-01-23 18:43:29"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3194710612297058,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5025594830513,
+      "feature_selection_ratio": 0.5091666579246521,
+      "gini_coefficient": 0.10810104012489319
+    },
+    "timestamp": "2025-01-23 18:45:29"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.35806769132614136,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5096104145050049,
+      "feature_selection_ratio": 0.54666668176651,
+      "gini_coefficient": 0.11492457240819931
+    },
+    "timestamp": "2025-01-23 18:47:53"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3704744577407837,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5046098232269287,
+      "feature_selection_ratio": 0.5149999856948853,
+      "gini_coefficient": 0.12199527770280838
+    },
+    "timestamp": "2025-01-23 18:50:41"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.34106355905532837,
+      "test_accuracy": 0.8461538461538461,
+      "test_precision": 0.8833333849906921,
+      "test_recall": 0.8666666746139526,
+      "test_f1": 0.8580952882766724,
+      "sparsity_l1": 0.5071241855621338,
+      "feature_selection_ratio": 0.5229166746139526,
+      "gini_coefficient": 0.11445077508687973
+    },
+    "timestamp": "2025-01-23 18:52:44"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3868125379085541,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5011192560195923,
+      "feature_selection_ratio": 0.5079166889190674,
+      "gini_coefficient": 0.10682404041290283
+    },
+    "timestamp": "2025-01-23 18:55:07"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31805598735809326,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5033411383628845,
+      "feature_selection_ratio": 0.5049999952316284,
+      "gini_coefficient": 0.12865254282951355
+    },
+    "timestamp": "2025-01-23 18:57:31"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.38061726093292236,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5036755800247192,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.11636122316122055
+    },
+    "timestamp": "2025-01-23 19:00:19"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3519654870033264,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5030863881111145,
+      "feature_selection_ratio": 0.5054166913032532,
+      "gini_coefficient": 0.11584901064634323
+    },
+    "timestamp": "2025-01-23 19:02:26"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.27250418066978455,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5061088800430298,
+      "feature_selection_ratio": 0.5137500166893005,
+      "gini_coefficient": 0.12602905929088593
+    },
+    "timestamp": "2025-01-23 19:05:13"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31726986169815063,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9666666984558105,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9600000381469727,
+      "sparsity_l1": 0.5059916973114014,
+      "feature_selection_ratio": 0.5299999713897705,
+      "gini_coefficient": 0.11767663806676865
+    },
+    "timestamp": "2025-01-23 19:07:37"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.4117530584335327,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.508804202079773,
+      "feature_selection_ratio": 0.5404166579246521,
+      "gini_coefficient": 0.11886555701494217
+    },
+    "timestamp": "2025-01-23 19:10:25"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2934758961200714,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.4995637536048889,
+      "feature_selection_ratio": 0.5049999952316284,
+      "gini_coefficient": 0.10522632300853729
+    },
+    "timestamp": "2025-01-23 19:12:49"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3813420832157135,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5022286176681519,
+      "feature_selection_ratio": 0.5149999856948853,
+      "gini_coefficient": 0.10354176163673401
+    },
+    "timestamp": "2025-01-23 19:14:44"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.18211185932159424,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5011090040206909,
+      "feature_selection_ratio": 0.5045833587646484,
+      "gini_coefficient": 0.09967334568500519
+    },
+    "timestamp": "2025-01-23 19:17:08"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.14530013501644135,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.504457414150238,
+      "feature_selection_ratio": 0.5133333206176758,
+      "gini_coefficient": 0.10390297323465347
+    },
+    "timestamp": "2025-01-23 19:19:56"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1858464926481247,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.504012942314148,
+      "feature_selection_ratio": 0.5070833563804626,
+      "gini_coefficient": 0.09310423582792282
+    },
+    "timestamp": "2025-01-23 19:21:28"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.19378285109996796,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5000330209732056,
+      "feature_selection_ratio": 0.5045833587646484,
+      "gini_coefficient": 0.10776033997535706
+    },
+    "timestamp": "2025-01-23 19:23:52"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.165516197681427,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5002064108848572,
+      "feature_selection_ratio": 0.5045833587646484,
+      "gini_coefficient": 0.10766496509313583
+    },
+    "timestamp": "2025-01-23 19:26:16"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.169996976852417,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.503019392490387,
+      "feature_selection_ratio": 0.5133333206176758,
+      "gini_coefficient": 0.10822954773902893
+    },
+    "timestamp": "2025-01-23 19:29:04"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.20369477570056915,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.500297486782074,
+      "feature_selection_ratio": 0.5041666626930237,
+      "gini_coefficient": 0.09690849483013153
+    },
+    "timestamp": "2025-01-23 19:31:28"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "relu",
+      "attention_activation": "relu",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.16119106113910675,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5022320747375488,
+      "feature_selection_ratio": 0.503333330154419,
+      "gini_coefficient": 0.09926865994930267
+    },
+    "timestamp": "2025-01-23 19:34:15"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3834652304649353,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5016401410102844,
+      "feature_selection_ratio": 0.5074999928474426,
+      "gini_coefficient": 0.11101264506578445
+    },
+    "timestamp": "2025-01-23 19:36:38"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.29354843497276306,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416666030883789,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9323809742927551,
+      "sparsity_l1": 0.5061853528022766,
+      "feature_selection_ratio": 0.5199999809265137,
+      "gini_coefficient": 0.1185901015996933
+    },
+    "timestamp": "2025-01-23 19:39:24"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.37488529086112976,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5026466846466064,
+      "feature_selection_ratio": 0.5141666531562805,
+      "gini_coefficient": 0.11566297709941864
+    },
+    "timestamp": "2025-01-23 19:41:54"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3180367350578308,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.5043234825134277,
+      "feature_selection_ratio": 0.5104166865348816,
+      "gini_coefficient": 0.11842941492795944
+    },
+    "timestamp": "2025-01-23 19:43:52"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.352549284696579,
+      "test_accuracy": 0.8461538461538461,
+      "test_precision": 0.8833333849906921,
+      "test_recall": 0.8666666746139526,
+      "test_f1": 0.8580952882766724,
+      "sparsity_l1": 0.5018048882484436,
+      "feature_selection_ratio": 0.5087500214576721,
+      "gini_coefficient": 0.11983361095190048
+    },
+    "timestamp": "2025-01-23 19:47:41"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.33278557658195496,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5019019842147827,
+      "feature_selection_ratio": 0.5095833539962769,
+      "gini_coefficient": 0.11746706813573837
+    },
+    "timestamp": "2025-01-23 19:52:04"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3337066173553467,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5012878179550171,
+      "feature_selection_ratio": 0.5116666555404663,
+      "gini_coefficient": 0.10848537087440491
+    },
+    "timestamp": "2025-01-23 19:56:00"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.4294489324092865,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5020999908447266,
+      "feature_selection_ratio": 0.512499988079071,
+      "gini_coefficient": 0.1165916919708252
+    },
+    "timestamp": "2025-01-23 19:59:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3734252452850342,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5041007995605469,
+      "feature_selection_ratio": 0.5087500214576721,
+      "gini_coefficient": 0.11836695671081543
+    },
+    "timestamp": "2025-01-23 20:03:30"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.27441465854644775,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5034749507904053,
+      "feature_selection_ratio": 0.518750011920929,
+      "gini_coefficient": 0.11422781646251678
+    },
+    "timestamp": "2025-01-23 20:08:02"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3660069704055786,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9257143139839172,
+      "sparsity_l1": 0.5035624504089355,
+      "feature_selection_ratio": 0.5091666579246521,
+      "gini_coefficient": 0.12042784690856934
+    },
+    "timestamp": "2025-01-23 20:11:21"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.364554226398468,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5030326843261719,
+      "feature_selection_ratio": 0.5112500190734863,
+      "gini_coefficient": 0.11788879334926605
+    },
+    "timestamp": "2025-01-23 20:13:39"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3367258608341217,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5017845034599304,
+      "feature_selection_ratio": 0.518750011920929,
+      "gini_coefficient": 0.11403626203536987
+    },
+    "timestamp": "2025-01-23 20:17:09"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3398051857948303,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5042573809623718,
+      "feature_selection_ratio": 0.5170833468437195,
+      "gini_coefficient": 0.12888284027576447
+    },
+    "timestamp": "2025-01-23 20:21:36"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3447013199329376,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5035120248794556,
+      "feature_selection_ratio": 0.5233333110809326,
+      "gini_coefficient": 0.11181745678186417
+    },
+    "timestamp": "2025-01-23 20:25:24"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3635062575340271,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.503530740737915,
+      "feature_selection_ratio": 0.5095833539962769,
+      "gini_coefficient": 0.11720851063728333
+    },
+    "timestamp": "2025-01-23 20:28:26"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.20057205855846405,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5031895041465759,
+      "feature_selection_ratio": 0.5141666531562805,
+      "gini_coefficient": 0.10160968452692032
+    },
+    "timestamp": "2025-01-23 20:32:09"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.17492878437042236,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5019145607948303,
+      "feature_selection_ratio": 0.503333330154419,
+      "gini_coefficient": 0.10608121007680893
+    },
+    "timestamp": "2025-01-23 20:36:31"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2020019143819809,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5024290680885315,
+      "feature_selection_ratio": 0.5091666579246521,
+      "gini_coefficient": 0.09941095858812332
+    },
+    "timestamp": "2025-01-23 20:39:51"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.14624151587486267,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5019055008888245,
+      "feature_selection_ratio": 0.5204166769981384,
+      "gini_coefficient": 0.11219451576471329
+    },
+    "timestamp": "2025-01-23 20:43:53"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2202993780374527,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5022484660148621,
+      "feature_selection_ratio": 0.5049999952316284,
+      "gini_coefficient": 0.10521058738231659
+    },
+    "timestamp": "2025-01-23 20:47:52"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.20295464992523193,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5032703876495361,
+      "feature_selection_ratio": 0.5120833516120911,
+      "gini_coefficient": 0.11053480952978134
+    },
+    "timestamp": "2025-01-23 20:52:26"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.20579390227794647,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.500262975692749,
+      "feature_selection_ratio": 0.5024999976158142,
+      "gini_coefficient": 0.09851081669330597
+    },
+    "timestamp": "2025-01-23 20:56:19"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "tanh",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.17044001817703247,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5058091878890991,
+      "feature_selection_ratio": 0.528333306312561,
+      "gini_coefficient": 0.11118344217538834
+    },
+    "timestamp": "2025-01-23 20:59:17"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3096570074558258,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5001922249794006,
+      "feature_selection_ratio": 0.5004166960716248,
+      "gini_coefficient": 0.022782305255532265
+    },
+    "timestamp": "2025-01-23 21:01:48"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3121563792228699,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5003384351730347,
+      "feature_selection_ratio": 0.5045833587646484,
+      "gini_coefficient": 0.028247524052858353
+    },
+    "timestamp": "2025-01-23 21:04:44"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.4140261709690094,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5006551146507263,
+      "feature_selection_ratio": 0.5099999904632568,
+      "gini_coefficient": 0.02717946283519268
+    },
+    "timestamp": "2025-01-23 21:06:13"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.27001887559890747,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5012305974960327,
+      "feature_selection_ratio": 0.5120833516120911,
+      "gini_coefficient": 0.033440954983234406
+    },
+    "timestamp": "2025-01-23 21:08:41"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3302401900291443,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416666030883789,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9323809742927551,
+      "sparsity_l1": 0.49946534633636475,
+      "feature_selection_ratio": 0.48625001311302185,
+      "gini_coefficient": 0.0190588366240263
+    },
+    "timestamp": "2025-01-23 21:11:33"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.287505567073822,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.500143826007843,
+      "feature_selection_ratio": 0.5016666650772095,
+      "gini_coefficient": 0.024693351238965988
+    },
+    "timestamp": "2025-01-23 21:14:49"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2999202311038971,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.9666666984558105,
+      "test_f1": 0.9657143354415894,
+      "sparsity_l1": 0.5000450611114502,
+      "feature_selection_ratio": 0.503333330154419,
+      "gini_coefficient": 0.026698261499404907
+    },
+    "timestamp": "2025-01-23 21:17:37"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.2878340184688568,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5005388855934143,
+      "feature_selection_ratio": 0.5174999833106995,
+      "gini_coefficient": 0.020790059119462967
+    },
+    "timestamp": "2025-01-23 21:20:17"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.2720573842525482,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5008153319358826,
+      "feature_selection_ratio": 0.5062500238418579,
+      "gini_coefficient": 0.02567460760474205
+    },
+    "timestamp": "2025-01-23 21:23:02"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.34353092312812805,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.500322699546814,
+      "feature_selection_ratio": 0.49541667103767395,
+      "gini_coefficient": 0.024688849225640297
+    },
+    "timestamp": "2025-01-23 21:25:57"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3338391184806824,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5003688335418701,
+      "feature_selection_ratio": 0.5008333325386047,
+      "gini_coefficient": 0.0257529616355896
+    },
+    "timestamp": "2025-01-23 21:27:51"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.396309494972229,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5016659498214722,
+      "feature_selection_ratio": 0.5220833420753479,
+      "gini_coefficient": 0.02766246348619461
+    },
+    "timestamp": "2025-01-23 21:29:19"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3119829595088959,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5008332133293152,
+      "feature_selection_ratio": 0.4945833384990692,
+      "gini_coefficient": 0.03361979126930237
+    },
+    "timestamp": "2025-01-23 21:31:50"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.30876317620277405,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5002170205116272,
+      "feature_selection_ratio": 0.5,
+      "gini_coefficient": 0.029360897839069366
+    },
+    "timestamp": "2025-01-23 21:34:47"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.31155481934547424,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5014209151268005,
+      "feature_selection_ratio": 0.5204166769981384,
+      "gini_coefficient": 0.03736243024468422
+    },
+    "timestamp": "2025-01-23 21:37:29"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.36437496542930603,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.500506579875946,
+      "feature_selection_ratio": 0.5049999952316284,
+      "gini_coefficient": 0.028502970933914185
+    },
+    "timestamp": "2025-01-23 21:40:32"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.15509819984436035,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5002920627593994,
+      "feature_selection_ratio": 0.5020833611488342,
+      "gini_coefficient": 0.02642853558063507
+    },
+    "timestamp": "2025-01-23 21:42:56"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.15726391971111298,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.500239908695221,
+      "feature_selection_ratio": 0.5179166793823242,
+      "gini_coefficient": 0.023908106610178947
+    },
+    "timestamp": "2025-01-23 21:45:44"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1691874861717224,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5006614327430725,
+      "feature_selection_ratio": 0.51583331823349,
+      "gini_coefficient": 0.02371148020029068
+    },
+    "timestamp": "2025-01-23 21:48:08"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.13277560472488403,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4997119605541229,
+      "feature_selection_ratio": 0.4962500035762787,
+      "gini_coefficient": 0.020946303382515907
+    },
+    "timestamp": "2025-01-23 21:50:54"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1754418909549713,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5004435777664185,
+      "feature_selection_ratio": 0.5058333277702332,
+      "gini_coefficient": 0.02347269468009472
+    },
+    "timestamp": "2025-01-23 21:53:19"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.15234000980854034,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.5008723735809326,
+      "feature_selection_ratio": 0.5104166865348816,
+      "gini_coefficient": 0.024022098630666733
+    },
+    "timestamp": "2025-01-23 21:56:07"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9523809523809523,
+      "val_loss": 0.1784706562757492,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4998939037322998,
+      "feature_selection_ratio": 0.49791666865348816,
+      "gini_coefficient": 0.02558680810034275
+    },
+    "timestamp": "2025-01-23 21:58:31"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "sigmoid",
+      "hidden_activation": "elu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 1.0,
+      "val_loss": 0.15451189875602722,
+      "test_accuracy": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0,
+      "test_f1": 1.0,
+      "sparsity_l1": 0.4999004006385803,
+      "feature_selection_ratio": 0.49541667103767395,
+      "gini_coefficient": 0.024071749299764633
+    },
+    "timestamp": "2025-01-23 22:01:19"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3176381289958954,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5076864957809448,
+      "feature_selection_ratio": 0.5395833253860474,
+      "gini_coefficient": 0.11358729749917984
+    },
+    "timestamp": "2025-01-23 22:03:44"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3018783628940582,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5045760273933411,
+      "feature_selection_ratio": 0.518750011920929,
+      "gini_coefficient": 0.1183963418006897
+    },
+    "timestamp": "2025-01-23 22:06:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3686106204986572,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.5031011700630188,
+      "feature_selection_ratio": 0.5170833468437195,
+      "gini_coefficient": 0.10341015458106995
+    },
+    "timestamp": "2025-01-23 22:08:04"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3864509165287018,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.9166666269302368,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8980952501296997,
+      "sparsity_l1": 0.5040963292121887,
+      "feature_selection_ratio": 0.527916669845581,
+      "gini_coefficient": 0.11258389055728912
+    },
+    "timestamp": "2025-01-23 22:09:25"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.34539365768432617,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.4998176097869873,
+      "feature_selection_ratio": 0.49791666865348816,
+      "gini_coefficient": 0.09939427673816681
+    },
+    "timestamp": "2025-01-23 22:11:51"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3015640676021576,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5079596042633057,
+      "feature_selection_ratio": 0.53125,
+      "gini_coefficient": 0.11871381103992462
+    },
+    "timestamp": "2025-01-23 22:14:40"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.32184460759162903,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9666666984558105,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9600000381469727,
+      "sparsity_l1": 0.5022766590118408,
+      "feature_selection_ratio": 0.5224999785423279,
+      "gini_coefficient": 0.10257977247238159
+    },
+    "timestamp": "2025-01-23 22:16:44"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.29310160875320435,
+      "test_accuracy": 0.9615384615384616,
+      "test_precision": 0.9750000238418579,
+      "test_recall": 0.966666579246521,
+      "test_f1": 0.9657142758369446,
+      "sparsity_l1": 0.5033945441246033,
+      "feature_selection_ratio": 0.5249999761581421,
+      "gini_coefficient": 0.11147651076316833
+    },
+    "timestamp": "2025-01-23 22:19:34"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.3198414444923401,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5012906789779663,
+      "feature_selection_ratio": 0.5254166722297668,
+      "gini_coefficient": 0.08496269583702087
+    },
+    "timestamp": "2025-01-23 22:21:59"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.37866395711898804,
+      "test_accuracy": 0.8846153846153846,
+      "test_precision": 0.908333420753479,
+      "test_recall": 0.8999999761581421,
+      "test_f1": 0.8923810124397278,
+      "sparsity_l1": 0.504360556602478,
+      "feature_selection_ratio": 0.5241666436195374,
+      "gini_coefficient": 0.10753407329320908
+    },
+    "timestamp": "2025-01-23 22:24:49"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.3664330840110779,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416667222976685,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.925714373588562,
+      "sparsity_l1": 0.5015223622322083,
+      "feature_selection_ratio": 0.49958333373069763,
+      "gini_coefficient": 0.08520327508449554
+    },
+    "timestamp": "2025-01-23 22:26:02"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.2,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 70
+    },
+    "metrics": {
+      "val_accuracy": 0.9047619047619048,
+      "val_loss": 0.39493006467819214,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.9416666030883789,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9323809742927551,
+      "sparsity_l1": 0.5019534826278687,
+      "feature_selection_ratio": 0.5166666507720947,
+      "gini_coefficient": 0.10536457598209381
+    },
+    "timestamp": "2025-01-23 22:28:37"
+  },
+  {
+    "config": {
+      "e_node": 16,
+      "a_node": 2,
+      "extract_activation": "gelu",
+      "attention_activation": "relu",
+      "hidden_activation": "leaky_relu",
+      "hidden_size": 256,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "num_epochs": 60
+    },
+    "metrics": {
+      "val_accuracy": 0.8571428571428571,
+      "val_loss": 0.36077794432640076,
+      "test_accuracy": 0.9230769230769231,
+      "test_precision": 0.949999988079071,
+      "test_recall": 0.9333332777023315,
+      "test_f1": 0.9314286112785339,
+      "sparsity_l1": 0.5027123689651489,
+      "feature_selection_ratio": 0.5016666650772095,
+      "gini_coefficient": 0.1147654801607132
+    },
+    "timestamp": "2025-01-23 22:31:02"
+  }
+]
