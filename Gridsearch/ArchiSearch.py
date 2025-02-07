@@ -8,7 +8,7 @@ from sklearn.model_selection import KFold
 import json
 from datetime import datetime
 from torch.utils.data import DataLoader, TensorDataset
-from modellinear import AFS
+from Gridsearch.modellinear import AFS
 import os
 import numpy as np
 from scipy.io import loadmat
