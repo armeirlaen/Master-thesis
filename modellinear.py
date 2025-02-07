@@ -27,7 +27,7 @@ class NonLinearLayer(nn.Module):
 
 class AttentionModule(nn.Module):
     def __init__(self, input_size, e_node=32, a_node=2, 
-                 extract_activation='tanh', attention_activation='tanh'):
+                 extract_activation='tanh'):
         super().__init__()
         self.input_size = input_size
         
@@ -40,8 +40,7 @@ class AttentionModule(nn.Module):
         # Attention networks with configurable activation
         self.attention_nets = nn.ModuleList([
             nn.Sequential(
-                nn.Linear(e_node, a_node),
-                NonLinearLayer(attention_activation)
+                nn.Linear(e_node, a_node)
             )
             for _ in range(input_size)
         ])
@@ -79,7 +78,7 @@ class LearningModule(nn.Module):
 class AFS(nn.Module):
     def __init__(self, input_size, num_classes=10, e_node=32, a_node=2, 
                  hidden_size=500, extract_activation='tanh',
-                 attention_activation='tanh', hidden_activation='relu',
+                 hidden_activation='relu',
                  dropout_rate=0.0):
         super().__init__()
         
@@ -88,7 +87,6 @@ class AFS(nn.Module):
             e_node=e_node,
             a_node=a_node,
             extract_activation=extract_activation,
-            attention_activation=attention_activation
         )
         
         self.learning_module = LearningModule(

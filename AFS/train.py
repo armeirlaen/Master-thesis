@@ -10,7 +10,7 @@ class AFSTrainer:
                  input_size,
                  num_classes=10,
                  e_node=32,
-                 a_node=2,
+                 a_node=4,
                  hidden_size=500,
                  learning_rate=0.8,
                  weight_decay=0.0001,

@@ -8,8 +8,8 @@ from sklearn.model_selection import train_test_split
 def load_mnist_mat():
     """Load MNIST dataset from .mat file"""
     try:
-        print("Loading MNIST from /data/Isolet.mat...")
-        data = loadmat('./data/Isolet.mat')
+        print("Loading MNIST from /data/mnist.mat...")
+        data = loadmat('./data/mnist.mat')
         
         # Extract and transpose data to get correct shape
         X = data['data'].T.astype(np.float32)  # Transpose to get [n_samples, n_features]

@@ -14,8 +14,11 @@ class AttentionModule(nn.Module):
         )
         
         # Attention networks for each feature
-        self.attention_nets = nn.ModuleList([
-            nn.Linear(e_node, a_node)
+        self.attention_nets =  nn.ModuleList([
+            nn.Sequential(
+                nn.Linear(e_node, a_node),
+                nn.Linear(a_node, 2)
+            )
             for _ in range(input_size)
         ])
 

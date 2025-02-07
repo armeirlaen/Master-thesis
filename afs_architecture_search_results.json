@@ -1,0 +1,28 @@
+[
+  {
+    "config": {
+      "e_node": 32,
+      "a_node": 2,
+      "extract_activation": "tanh",
+      "hidden_activation": "relu",
+      "hidden_size": 128,
+      "dropout_rate": 0.0,
+      "batch_size": 32,
+      "learning_rate": 0.1,
+      "weight_decay": 0.0,
+      "num_epochs": 30
+    },
+    "metrics": {
+      "val_accuracy": 0.96,
+      "val_loss": 0.12567043909803033,
+      "test_accuracy": 0.967948717948718,
+      "test_precision": 0.9693832397460938,
+      "test_recall": 0.9679487943649292,
+      "test_f1": 0.9677703380584717,
+      "sparsity_l1": 0.5075921416282654,
+      "feature_selection_ratio": 0.5980551242828369,
+      "gini_coefficient": 0.039023347198963165
+    },
+    "timestamp": "2025-02-06 15:21:24"
+  }
+]
